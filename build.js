@@ -69,11 +69,11 @@ if (!fs.existsSync("node_modules")) {
 }
 
 // Use simple workbench
-note("copying workbench file");
-fs.copyFileSync(
-  "../workbench.ts",
-  "src/vs/code/browser/workbench/workbench.ts"
-);
+// note("copying workbench file");
+// fs.copyFileSync(
+//   "../workbench.ts",
+//   "src/vs/code/browser/workbench/workbench.ts"
+// );
 
 // Compile
 note("starting compile");
